@@ -1,0 +1,89 @@
+.{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background: rgba(0, 0, 0, 0.9);
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 600px;
+	/*border: 1px solid black;*/
+	margin-left: 510px;
+	align-items: center;
+	text-align: justify;
+	padding: 2px;
+	margin-top: 34px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 5%;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 1.0);
+}
+.headings{
+	font-size: 2.5rem;
+	font-family: century;
+	color: white;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	padding: 4px;
+	font-size: 1.3rem;
+	color: white;
+}
+.input{
+	padding: 5px;
+	margin: 5px;
+	width: 300px;
+	cursor: pointer;
+	border-radius: 10px;
+
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	/*border: 1px solid black;*/
+	margin-top: 340px;
+	text-align: center;
+	position: absolute;
+	margin-left: 9%;
+	padding: 5px;
+
+}
+.box a{
+	display: flex;
+	flex-direction: column;
+	font-size: 1rem;
+}
+.btn{
+	background: linear-gradient(to left rgba(0, 0, 0, 0.7) 50%, white 50%);
+	background-size: 200% 100%;
+	transition: all 8.s;
+	padding: 5px;
+	margin-top: 5px;
+	width: 70px;
+	text-align: center;
+	border-radius: 10px;
+}
+.btn:hover{
+	color: black;
+	box-shadow: 0 0 20px white, 0 0 10px white, 0 0 20px white ;
+	cursor: pointer;
+	border: none;
+	font-family: century;
+
+
+}
+.forgot_pswd{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 1rem;
+	text-decoration: none;
+}
+.forgot_pswd a{
+	color: white;
+	text-decoration: underline;
+}
